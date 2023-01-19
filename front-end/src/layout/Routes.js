@@ -29,7 +29,7 @@ function Routes() {
       </Route>
       <Route exact={true} path="/search">
         <SearchReservations />
-      </Route>ß
+      </Route>
       <Route exact={true} path="/reservations">
         <Redirect to={"/dashboard"} />
       </Route>
@@ -49,7 +49,7 @@ function Routes() {
         <CreateTable />
       </Route>
       <Route>
-       ß
+        <NotFound />
       </Route>
     </Switch>
   );
