@@ -9,11 +9,12 @@ import Layout from "./layout/Layout";
 function App() {
   return (
     <Switch>
-      <Route path="/">
+      <Route basename="/reservation-system">
         <Layout />
       </Route>
     </Switch>
   );
 }
+// path="/"
 
 export default App;
