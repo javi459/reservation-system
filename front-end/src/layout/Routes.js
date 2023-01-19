@@ -49,7 +49,7 @@ function Routes() {
         <CreateTable />
       </Route>
       <Route>
-        <NotFound />
+        {/* <NotFound /> */}
       </Route>
     </Switch>
   );
