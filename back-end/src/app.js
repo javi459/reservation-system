@@ -11,8 +11,9 @@ const reservationsRouter = require("./reservations/reservations.router");
 const tablesRouter = require("./tables/tables.router");
 
 const app = express();
-
-app.use(cors());
+app.use(cors({
+    origin:"https://reservation-system-frontend-msuh.onrender.com/"}))
+// app.use(cors());
 app.use(express.json());
 
 app.use("/reservations", reservationsRouter);
