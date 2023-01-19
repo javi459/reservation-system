@@ -22,7 +22,7 @@ function Routes() {
   return (
     <Switch>
       <Route exact={true} path="/">
-        {/* <Redirect to={"/dashboard"} /> */}
+        <Redirect to={"/dashboard"} />
       </Route>
       <Route path="/dashboard">
         <Dashboard date={today()} />
